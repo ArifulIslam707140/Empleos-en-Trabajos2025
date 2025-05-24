@@ -2,85 +2,130 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Oportunidades de Trabajo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oportunidades de Trabajo 2025</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f8f8f8;
+      background-color: #e9eff7;
+      margin: 0;
       padding: 20px;
     }
-    .job-card {
-      background: #fff;
-      padding: 20px;
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    @keyframes floatText {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
       margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .single {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
       border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 280px;
+      margin-bottom: 20px;
     }
-    .job-card h2 {
+
+    .card h3 {
       margin-top: 0;
+      color: #2c3e50;
     }
+
+    .card p {
+      margin-bottom: 10px;
+      animation: floatText 2s ease-in-out infinite;
+    }
+
     .salary {
+      color: green;
       font-weight: bold;
-      color: #2ecc71;
     }
-    .apply-now {
-      display: inline-block;
-      margin-top: 10px;
-      background: #3498db;
-      color: #fff;
+
+    .button {
+      background-color: #007bff;
+      color: white;
       padding: 10px 15px;
-      border-radius: 5px;
+      border: none;
+      border-radius: 20px;
+      text-align: center;
       text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
     }
-    .apply-now:hover {
-      background: #2980b9;
-    }
+
     footer {
       text-align: center;
-      margin-top: 40px;
-      color: #777;
+      font-size: 14px;
+      color: #888;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
 
-  <div class="job-card">
-    <h2>Trabajo desde Casa con Coca-Cola</h2>
-    <p>¿Buscas un trabajo flexible y bien remunerado? Coca-Cola ofrece oportunidades para trabajar desde casa a tiempo parcial.</p>
-    <p class="salary">Sueldo: $18 - $48 por hora</p>
-    <a href="https://aff4jobs.com/go?c=6188&p=7187" class="apply-now">Aplica Ahora</a>
+  <h2>Oportunidades de Trabajo 2025</h2>
+
+  <div class="row">
+    <div class="card">
+      <h3>Kelly Services - Trabajo Remoto</h3>
+      <p>Kelly Services está contratando para posiciones remotas a tiempo parcial. ¡Únete a nuestro equipo desde la comodidad de tu hogar!</p>
+      <p class="salary">Sueldo: $16 - $38 por hora</p>
+      <a class="button" href="https://aff4jobs.com/go?c=6188&p=7187" target="_blank" rel="noopener noreferrer">Aplica Ahora</a>
+    </div>
+
+    <div class="card">
+      <h3>Part Time Job</h3>
+      <p>Consigue un empleo de medio tiempo con horarios flexibles. ¡No necesitas experiencia y puedes comenzar de inmediato!</p>
+      <p class="salary">Sueldo: $15 - $32 por hora</p>
+      <a class="button" href="https://aff4jobs.com/go?c=5406&p=7187" target="_blank" rel="noopener noreferrer">Aplica Ahora</a>
+    </div>
+
+    <div class="card">
+      <h3>Work From Home Job</h3>
+      <p>Oportunidades reales para trabajar desde casa. Capacitación incluida y horarios adaptables. ¡Ideal para quienes inician!</p>
+      <p class="salary">Sueldo: $16 - $36 por hora</p>
+      <a class="button" href="https://aff4jobs.com/go?c=5403&p=7187" target="_blank" rel="noopener noreferrer">Aplica Ahora</a>
+    </div>
+
+    <div class="card">
+      <h3>Amazon Flex Job</h3>
+      <p>Gana dinero haciendo entregas para Amazon en tus tiempos libres. Elige tus propios horarios y comienza rápido.</p>
+      <p class="salary">Sueldo: $16 - $34 por hora</p>
+      <a class="button" href="https://aff4jobs.com/go?c=5440&p=7187" target="_blank" rel="noopener noreferrer">Aplica Ahora</a>
+    </div>
   </div>
 
-  <div class="job-card">
-    <h2>Oportunidad de Trabajo con Kelly Services</h2>
-    <p>Kelly Services está contratando para posiciones remotas a tiempo parcial. ¡Únete a nuestro equipo desde la comodidad de tu hogar!</p>
-    <p class="salary">Sueldo: $18 - $48 por hora</p>
-    <a href="https://aff4jobs.com/go?c=6188&p=7187" class="apply-now">Aplica Ahora</a>
-  </div>
-
-  <div class="job-card">
-    <h2>Trabajo desde Casa en Marketing Digital</h2>
-    <p>Únete al equipo de marketing digital de una empresa líder. Oportunidades de crecimiento trabajando de manera remota.</p>
-    <p class="salary">Sueldo: $20 - $50 por hora</p>
-    <a href="https://aff4jobs.com/go?c=6188&p=7187" class="apply-now">Aplica Ahora</a>
-  </div>
-
-  <div class="job-card">
-    <h2>Asistente Virtual desde Casa</h2>
-    <p>Se buscan asistentes virtuales para realizar tareas administrativas. Trabaja cómodamente desde tu hogar con horarios flexibles.</p>
-    <p class="salary">Sueldo: $15 - $40 por hora</p>
-    <a href="https://aff4jobs.com/go?c=6188&p=7187" class="apply-now">Aplica Ahora</a>
-  </div>
-
-  <div class="job-card">
-    <h2>Trabajos a Tiempo Parcial en Varias Industrias</h2>
-    <p>Encuentra trabajos a tiempo parcial en una variedad de industrias. Estas oportunidades te permiten trabajar desde casa o de manera flexible.</p>
-    <p class="salary">Sueldo: $18 - $48 por hora</p>
-    <a href="#" class="apply-now">Aplica Ahora</a>
+  <div class="single">
+    <div class="card">
+      <h3>BuildDreamCareer - Housekeeping Job</h3>
+      <p>Únete a BuildDreamCareer y trabaja en limpieza con horarios flexibles. Perfecto para obtener ingresos rápidos cerca de casa.</p>
+      <p class="salary">Sueldo: $16 - $32 por hora</p>
+      <a class="button" href="https://aff4jobs.com/go?c=5805&p=7187" target="_blank" rel="noopener noreferrer">Aplica Ahora</a>
+    </div>
   </div>
 
   <footer>
-    <p>2024 Oportunidades de Trabajo - Todos los derechos reservados</p>
+    © 2025 Job Opportunity. All rights reserved.<br>
+    Job Opportunity es un motor de búsqueda de empleo. No somos agentes ni representantes de ningún empleador.
   </footer>
 
 </body>
